@@ -1,0 +1,39 @@
+div {
+    background-color: rgb(255, 0, 179);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/* display -outer box width a depend pani inide box size automatica change aagum, apudi box size change aaga koodathu na flex-wrap use pannanum */
+/* justify-content -atha suthi space set panna use aagum */
+/* align-items use panni inside boxes ah center ku kondu vara mudiyum in both x and y direction  */
+#c1 {
+   background-color:aliceblue;
+    height:80px;
+    width:80px;
+    
+    float: left;
+}
+#c2{ 
+  background-color:rgb(23, 100, 167);
+    height:80px;
+    width:80px;
+    flex-wrap: wrap;
+    float: left;
+}
+#c3 {
+    background-color: rgb(120, 17, 17);
+    height:80px;
+    width: 80px;
+    float: left;
+    flex
+}
+#c4 {
+    background-color: rgb(114, 143, 9);
+    height:80px;
+    width: 80px;
+    float: left;
+}
